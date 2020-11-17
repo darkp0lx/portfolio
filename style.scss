@@ -480,24 +480,69 @@ h6 {
     margin-top: -45px;
     width: auto;
   }
-  .about-me{
+
+  .about-me {
     width: 80%;
     margin: 0 1em;
-    h4{
+
+    h4 {
       margin: 0;
     }
   }
-  ul{
-    li{
+
+  ul {
+    li {
       font-size: 11px;
     }
   }
-  .list-1{
+
+  .list-1 {
     padding-left: 10px;
   }
+
   #social_img {
     width: 300px !important;
     height: auto !important;
 
-}
+  }
+
+  .modal .img-modal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal .img-modal img {
+    margin-right: 0em;
+    width: 100%;
+    height: auto;
+  }
+
+  .name,
+  h3,
+  .description {
+    margin: 0;
+    padding: 0;
+  }
+
+  .description span {
+    font-size: 18px;
+  }
+
+  .list-tecnologias {
+    margin-top: 0;
+  }
+
+  .botones {
+    display: flex;
+    justify-content: space-evenly;
+
+    .boton {
+      padding: 10px
+    }
+  }
+
+  #submit-btn {
+    border: none;
+    border-radius: 10px;
+  }
 }
