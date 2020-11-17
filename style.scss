@@ -10,9 +10,11 @@
   --previewShadow: #f0ead6;
   --buttonColor: black;
 }
-body *{
+
+body * {
   transition: .5s;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -350,20 +352,29 @@ h6 {
   color: white;
   background-color: var(--buttonColor);
 }
-.modal.active{
+
+.modal.active {
   display: grid;
 }
-.link{
+
+.link {
   cursor: pointer;
-  color:#17a2b8 ;
+  color: #17a2b8;
 }
-#modal{
+
+#modal {
   transition: .4s;
   color: #fff;
-  .name,p,h3,.boton,ul li{
+
+  .name,
+  p,
+  h3,
+  .boton,
+  ul li {
     color: white;
   }
 }
+
 .modal {
   transition: .4s ease-in;
   position: fixed;
@@ -374,16 +385,20 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  #html{
+
+  #html {
     color: rgb(255, 115, 0);
   }
-  #css{
+
+  #css {
     color: rgb(1, 192, 255);
   }
-  #javascript{
+
+  #javascript {
     color: yellow;
   }
-  .boton{
+
+  .boton {
     background-color: var(--buttonColor);
     border: none;
     color: var(--mainText);
@@ -393,16 +408,19 @@ h6 {
     cursor: pointer;
     font-family: 'Russo One', sans-serif;
     border-radius: 1em;
-    i{
+
+    i {
       color: var(--coverText);
     }
   }
+
   .img-modal {
     display: grid;
     grid-template-columns: 1fr .7fr;
     width: 70vw;
     height: 80vh;
     align-items: center;
+
     img {
       margin-right: 1em;
 
@@ -433,4 +451,53 @@ h6 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+}
+
+@media screen and (min-width:320px) {
+  h1 {
+    text-align: center;
+    font-size: 49px;
+  }
+
+  .into-wrapper .nav-wrapper {
+    width: 88vw;
+  }
+
+  .right-column {
+    justify-content: center;
+    padding-top: 0px;
+
+  }
+
+  .into-wrapper .right-column .preview-shadow {
+    background-color: var(--previewShadow);
+    height: 180px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .into-wrapper .right-column .preview {
+    margin-top: -45px;
+    width: auto;
+  }
+  .about-me{
+    width: 80%;
+    margin: 0 1em;
+    h4{
+      margin: 0;
+    }
+  }
+  ul{
+    li{
+      font-size: 11px;
+    }
+  }
+  .list-1{
+    padding-left: 10px;
+  }
+  #social_img {
+    width: 300px !important;
+    height: auto !important;
+
+}
 }
