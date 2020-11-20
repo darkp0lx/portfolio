@@ -31,7 +31,9 @@ strong {
   font-family: 'Russo One', sans-serif;
   font-weight: 500;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 a,
 p,
 li,
@@ -42,7 +44,9 @@ textarea {
   color: var(--secondaryText);
   font-family: 'Roboto Mono', monospace;
 }
-
+#github,#web{
+  color: white;
+}
 a,
 i {
   text-decoration: none;
@@ -269,7 +273,10 @@ h6 {
     }
   }
 }
-
+#submit-btn {
+  border: none;
+  border-radius: 10px;
+}
 .post-title {
   padding: 1em;
 }
@@ -380,7 +387,7 @@ h6 {
   position: fixed;
   display: none;
   place-items: center;
-  background-color: #000000a9;
+  background-color: #000000d2;
   top: 0;
   right: 0;
   left: 0;
@@ -453,7 +460,7 @@ h6 {
   }
 }
 
-@media screen and (min-width:320px) {
+@media screen and (max-width:500px) {
   h1 {
     text-align: center;
     font-size: 49px;
@@ -537,12 +544,9 @@ h6 {
     justify-content: space-evenly;
 
     .boton {
-      padding: 10px
+      padding: 1em 5px;
     }
   }
 
-  #submit-btn {
-    border: none;
-    border-radius: 10px;
-  }
+
 }
