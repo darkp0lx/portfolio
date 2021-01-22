@@ -11,6 +11,45 @@
   --buttonColor: black;
 }
 
+.my__name {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 0;
+  color: transparent;
+}
+
+.my__name:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  border-right: 2px solid #000;
+  animation: type 7s steps(38) infinite;
+  white-space: nowrap;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 125%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
 body * {
   transition: .5s;
 }
@@ -31,9 +70,11 @@ strong {
   font-family: 'Russo One', sans-serif;
   font-weight: 500;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
+
 a,
 p,
 li,
@@ -44,9 +85,12 @@ textarea {
   color: var(--secondaryText);
   font-family: 'Roboto Mono', monospace;
 }
-#github,#web{
+
+#github,
+#web {
   color: white;
 }
+
 a,
 i {
   text-decoration: none;
@@ -102,6 +146,25 @@ h6 {
   display: grid;
   place-items: center;
   min-height: 20em;
+}
+
+.status {
+  display: none;
+}
+
+.estatus.activo {
+  display: block;
+  width: 300px;
+  height: 30px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+
 }
 
 .into-wrapper {
@@ -273,10 +336,12 @@ h6 {
     }
   }
 }
+
 #submit-btn {
   border: none;
   border-radius: 10px;
 }
+
 .post-title {
   padding: 1em;
 }

@@ -19,7 +19,7 @@
   <section class="s1">
     <div class="main-container">
       <div class="greeting-wrapper">
-        <h1> Hola, yo soy Hector Paolo</h1>
+        <h1 class="my__name" data-text="Hola, yo soy Hector Paolo">Hola, yo soy Hector Paolo</h1>
       </div>
       <div class="into-wrapper">
         <div class="nav-wrapper">
@@ -110,13 +110,15 @@
           <a target="_blank" href="https://github.com/darkp0lx"><i class="fab fa-github"></i>Github:
             @HectorPaoloBarazorda</a>
           <br>
-          <a target="_blank" href="https://www.instagram.com/hectorbarazorda/"><i class="fab fa-facebook"></i>Facebook: @HectorPaoloBarazorda</a>
+          <a target="_blank" href="https://www.instagram.com/hectorbarazorda/"><i class="fab fa-facebook"></i>Facebook:
+            @HectorPaoloBarazorda</a>
         </div>
       </div>
     </div>
   </section>
   <section class="s1">
-    <div class="main-container"><h3 style="text-align: center;">Algunos de mis proyectos!</h3>
+    <div class="main-container">
+      <h3 style="text-align: center;">Algunos de mis proyectos!</h3>
       <div class="post-wrapper">
         <div class="post">
           <img class="portafolio" src="./images/proyect0.jpg" alt="">
@@ -140,12 +142,48 @@
           <div class="post-preview">
             <div class="post-title">
               <h3>
+                Facebook clone
+              </h3>
+
+              <div class="post-into">
+                <p>
+                  Reecree un clon de facebook!! esta echo en React y tiene por backend firebase.En esta App se puede
+                  postear fotos y tambien comentarlas, inicia sesión con tu cuenta de gmail y pruebala :3
+                </p>
+                <p class="link">ver mas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <img class="portafolio" src="./images/proyect2.jpg" alt="">
+          <div class="post-preview">
+            <div class="post-title">
+              <h3>
+                Portal de peliculas
+              </h3>
+
+              <div class="post-into">
+                <p>
+                  Aplicacion web para obtener informacion de peliculas.
+                </p>
+                <p class="link">ver mas</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <img class="portafolio" src="./images/proyect3.jpg" alt="">
+          <div class="post-preview">
+            <div class="post-title">
+              <h3>
                 Baamago Tatto
               </h3>
               <div class="post-into">
                 <p>
                   Aplicación web desarrollada para una estudio de Tattoo.
-
                 </p>
                 <p class="link">ver mas</p>
               </div>
@@ -165,40 +203,26 @@
                   <li> <i id="html" class="fab fa-html5"></i>HTML</li>
                   <li> <i id="css" class="fab fa-css3-alt"></i>CSS</li>
                   <li><i id="javascript" class="fab fa-js-square"></i>Javascript</li>
+                  <li><i class="fab fa-react"></i>React</li>
                 </ul>
                 <div class="botones">
-                  <button  class="boton"><i class="fab fa-github"></i><a target="_black" id="github" href=""> ver codigo</a></button>
-                  <button  class="boton"><i class="fab fa-chrome"></i> <a  target="_black" id="web" href=""> ver pagina</a></button>
+                  <button class="boton"><i class="fab fa-github"></i><a target="_black" id="github" href=""> ver
+                      codigo</a></button>
+                  <button class="boton"><i class="fab fa-chrome"></i> <a target="_black" id="web" href=""> ver
+                      pagina</a></button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="post">
-          <img class="portafolio" src="./images/proyect2.jpg" alt="">
-          <div class="post-preview">
-            <div class="post-title">
-              <h3>
-                Portal de peliculas
-              </h3>
 
-              <div class="post-into">
-                <p>
-                  Aplicacion web para obtener informacion de peliculas.
-                </p>
-                <p class="link">ver mas</p>
-
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
   <section class="s2">
     <div class="main-container">
       <h3 style="text-align: center;">Contactame</h3>
-      <form id="contact-form">
+      <form action="https://formspree.io/f/xdopbdky" method="POST" id="contact-form">
         <label for="">Nombre</label>
         <input type="text" name="name" class="input-field">
         <label for="">Asunto</label>
@@ -209,6 +233,8 @@
         <textarea name="message" class="input-field"></textarea>
         <input type="submit" value="enviar" id="submit-btn">
       </form>
+      <div class="estatus" id="status">
+      </div>
     </div>
   </section>
   <script src="./index.js"></script>
