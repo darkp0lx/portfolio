@@ -16,19 +16,19 @@ const data = [
     web: "https://facebook-clone-416f5.web.app",
   },
   {
-    title: "Portal de películas",
+    title: "Clon de Pinterest",
     text:
-      "Aplicación creada en react para la consulta de información de todas las películas usando una API",
+      "Aplicación echa en react con login y favoritos conectada con una Api(backend:firebase).",
     tecnologias: [],
     code: "https://github.com/darkp0lx/films2",
-    web: "https://films0.herokuapp.com/",
+    web: "https://pinterest-8d55f.firebaseapp.com/",
   },
   {
-    title: "Bammaago Tatto",
+    title: "Amazon Clone",
     text:
-      "Aplicación SPA(single page application) aplicación que carga solo una vez",
+      "clon de Amazon con carrito de compras y pasarela de pago tiene como backend:firebase",
     tecnologías: [],
-    code: "https://github.com/darkp0lx/films2",
+    code: "https://github.com/darkp0lx/amazon",
     web: "https://films0.herokuapp.com/",
   },
 ];

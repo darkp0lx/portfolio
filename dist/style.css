@@ -466,12 +466,14 @@ h6 {
 .modal #javascript {
   color: yellow;
 }
-
+.modal .boton{
+  margin-right: 1em;
+}
 .modal .boton {
   background-color: var(--buttonColor);
   border: none;
   color: var(--mainText);
-  padding: 15px 30px;
+  padding: 8px 30px;
   font-weight: 300;
   outline: none;
   cursor: pointer;
@@ -536,13 +538,16 @@ h6 {
     min-height: 25em;
   }
 }
+
 @media screen and (min-width: 320px) {
 
   .my__name {
-    font-size: 15px ;
+    font-size: 15px;
     top: 15%;
     white-space: wrap;
   }
+}
+
 @media screen and (min-width: 375px) {
   .my__name {
     font-size: 16px !important;
@@ -554,6 +559,7 @@ h6 {
     min-height: 10em;
   }
 }
+
 @media screen and (max-width: 500px) {
 
   .my__name {
@@ -642,12 +648,18 @@ h6 {
     margin-top: 0;
   }
 
-  .botones {
-    display: flex;
-    justify-content: space-evenly;
-  }
+.botones {
+  display: flex ;
+  justify-content: space-evenly;
+}
 
   .botones .boton {
     padding: 1em 5px;
+    margin: 10px;
   }
+}
+
+.botones {
+  display: flex !important;
+  justify-content: space-evenly;
 }
