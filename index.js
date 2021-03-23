@@ -29,7 +29,7 @@ const data = [
       "clon de Amazon con carrito de compras y pasarela de pago tiene como backend:firebase",
     tecnologías: [],
     code: "https://github.com/darkp0lx/amazon",
-    web: "https://films0.herokuapp.com/",
+    web: "https://fir-1b10c.web.app/",
   },
 ];
 const theme = localStorage.getItem("theme");
