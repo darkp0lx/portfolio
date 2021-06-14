@@ -94,7 +94,7 @@ textarea {
 a,
 i {
   text-decoration: none;
-  color: #17a2b8;
+  color: red;
 }
 
 ul {
@@ -358,6 +358,9 @@ h6 {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--previewShadow);
+  .fab{
+    background-color:red;
+  }
 }
 
 #social_img {
