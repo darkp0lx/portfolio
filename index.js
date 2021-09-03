@@ -8,9 +8,9 @@ const data = [
     web: 'https://darkp0lx.github.io/pepsiSlider/'
   },
   {
-    title: 'facebook clone',
+    title: 'Clon Disney Plus',
     text:
-      'Reecree un clon de facebook!! esta echo en React y tiene por backend firebase.En esta App se puede postear fotos y tambien comentarlas, inicia sesión con tu cuenta de gmail y pruebala :3',
+      'App Web,hecho con Next,manejo de datos(redux). conectada a una Api externa y usa firebase de backend.',
     tec: ['svelte', 'css', 'html', 'javascript'],
     code: 'https://github.com/darkp0lx/facebook-clone',
     web: 'https://facebook-clone-416f5.web.app'
