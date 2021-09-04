@@ -26,7 +26,7 @@ const data = [
   {
     title: 'Amazon Clone',
     text:
-      'clon de Amazon con carrito de compras y pasarela de pago tiene como backend:firebase',
+      'clon de Amazon  con carrito de compras y pasarela de pago tiene como backend:firebase',
     tecnologías: [],
     code: 'https://github.com/darkp0lx/amazon',
     web: 'https://fir-1b10c.web.app/'
