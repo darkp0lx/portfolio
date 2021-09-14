@@ -12,8 +12,8 @@ const data = [
     text:
       'App Web,hecho con Next,manejo de datos(redux). conectada a una Api externa y usa firebase de backend.',
     tec: ['svelte', 'css', 'html', 'javascript'],
-    code: 'https://github.com/darkp0lx/facebook-clone',
-    web: 'https://facebook-clone-416f5.web.app'
+    code: 'https://github.com/darkp0lx/Disney-plus-clone',
+    web: 'https://disney-plus-clone-inky.vercel.app/'
   },
   {
     title: 'Clon de Pinterest',
@@ -26,7 +26,7 @@ const data = [
   {
     title: 'Amazon Clone',
     text:
-      'clon de Amazon con carrito de compras y pasarela de pago tiene como backend:firebase',
+      'clon de Amazon  con carrito de compras y pasarela de pago tiene como backend:firebase',
     tecnologías: [],
     code: 'https://github.com/darkp0lx/amazon',
     web: 'https://fir-1b10c.web.app/'
