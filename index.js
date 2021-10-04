@@ -10,7 +10,7 @@ const data = [
   {
     title: 'Clon Disney Plus',
     text:
-      'App Web,hecho con Next,manejo de datos(redux). conectada a una Api externa y usa firebase de backend.',
+      'App Web,hecho con React Next,manejo de datos(redux). conectada a una Api externa y backend NodeJs.',
     tec: ['svelte', 'css', 'html', 'javascript'],
     code: 'https://github.com/darkp0lx/Disney-plus-clone',
     web: 'https://disney-plus-clone-inky.vercel.app/'
@@ -24,12 +24,12 @@ const data = [
     web: 'https://pinterest-8d55f.firebaseapp.com/'
   },
   {
-    title: 'Amazon Clone',
+    title: 'Tienda Virtual',
     text:
       'clon de Amazon  con carrito de compras y pasarela de pago tiene como backend:firebase',
     tecnologías: [],
-    code: 'https://github.com/darkp0lx/amazon',
-    web: 'https://fir-1b10c.web.app/'
+    code: 'https://github.com/darkp0lx/frontend-starComputer  ',
+    web: 'https://frontend-star-computer.vercel.app/'
   }
 ]
 const theme = localStorage.getItem('theme')
