@@ -26,7 +26,7 @@ const data = [
   {
     title: 'Tienda Virtual',
     text:
-      'clon de Amazon  con carrito de compras y pasarela de pago tiene como backend:firebase',
+      'tienda virtual con tecnologias frontend(react,redux) y backend(NodeJs,MongoDB).',
     tecnologías: [],
     code: 'https://github.com/darkp0lx/frontend-starComputer  ',
     web: 'https://frontend-star-computer.vercel.app/'
