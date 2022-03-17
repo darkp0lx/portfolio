@@ -8,12 +8,12 @@ const data = [
     web: 'https://darkp0lx.github.io/pepsiSlider/'
   },
   {
-    title: 'Clon Disney Plus',
+    title: 'Aplicación para ver doramas',
     text:
-      'App Web,hecho con React Next,manejo de datos(redux). conectada a una Api externa y backend NodeJs.',
-    tec: ['svelte', 'css', 'html', 'javascript'],
+      'Aplicación web,hecho con React Next,manejo de datos(redux). conectada a una Api externa y backend NodeJs.',
+    tec: ['react', 'css', 'html', 'javascript', 'nextjs'],
     code: 'https://github.com/darkp0lx/Disney-plus-clone',
-    web: 'https://disney-plus-clone-inky.vercel.app/'
+    web: 'https://doramasflix.co/'
   },
   {
     title: 'Clon de Pinterest',
@@ -24,12 +24,12 @@ const data = [
     web: 'https://pinterest-8d55f.firebaseapp.com/'
   },
   {
-    title: 'Tienda Virtual',
+    title: 'Tienda Fashions',
     text:
-      'tienda virtual con tecnologias frontend(react,redux) y backend(NodeJs,MongoDB).',
+      'tienda Fashions  con tecnologias frontend(react,redux) y backend(NodeJs,MongoDB).',
     tecnologías: [],
-    code: 'https://github.com/darkp0lx/frontend-starComputer  ',
-    web: 'https://frontend-star-computer.vercel.app/'
+    code: 'https://github.com/darkp0lx/frontend-starComputer',
+    web: 'https://fashionsapp.herokuapp.com/'
   }
 ]
 const theme = localStorage.getItem('theme')
